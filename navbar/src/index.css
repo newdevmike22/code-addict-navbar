@@ -4,6 +4,7 @@
 
 @layer base {
   body {
+      background: #f8f9fa;
       font-family: 'Open Sans Variable', sans-serif;
   }
 }
@@ -51,6 +52,11 @@
   padding-left: 1.5rem;
 }
 
+.social-icons {
+  font-size: 1.5rem;
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -85,5 +91,19 @@
   .links a:hover {
     padding: 0;
     background: transparent;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .social-icons a {
+    color: #3f77c9;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .social-icons a:hover {
+    color: #71a4f0;
   }
 }
