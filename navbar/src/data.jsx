@@ -1,7 +1,4 @@
-import twitter from "./assets/twitter.png";
-import facebook from "./assets/facebook.png";
-import behance from "./assets/behance.png";
-import linkedin from "./assets/linkedin.png";
+import { FaFacebook, FaLinkedin, FaTwitter, FaBehanceSquare } from 'react-icons/fa';
 
 export const links = [
   {
@@ -35,21 +32,21 @@ export const social = [
   {
     id: 1,
     url: 'https://www.twitter.com',
-    icon: facebook ,
+    icon: <FaFacebook />,
   },
   {
     id: 2,
     url: 'https://www.twitter.com',
-    icon: twitter,
+    icon: <FaTwitter />,
   },
   {
     id: 3,
     url: 'https://www.twitter.com',
-    icon: linkedin,
+    icon: <FaLinkedin />,
   },
   {
     id: 4,
     url: 'https://www.twitter.com',
-    icon: behance,
+    icon: <FaBehanceSquare />,
   },
 ];
